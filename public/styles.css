@@ -13,6 +13,9 @@ body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  height: 100%; /* Allow the container to fill the available height */
   width: 100%;
   height: auto;
   min-height: 500px;
@@ -31,6 +34,14 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 1rem;
+}
+.footer {
+  font-family: corbel;
+  font-size: smaller;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
 }
 .heading h1 {
   transform: rotate(2deg);

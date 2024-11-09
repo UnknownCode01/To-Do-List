@@ -37,6 +37,9 @@ function App() {
           ))}
         </ul>
       </div>
+      <div className="footer">
+        <a href="https://github.com/UnknownCode01" target="_blank">@UnknownCode01</a>
+      </div>
     </div>
   );
 }
